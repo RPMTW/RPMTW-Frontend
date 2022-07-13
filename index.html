@@ -1,13 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta http-equiv="Content-Language" content="zh-TW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Pragma" content="no-cache" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="RPMTW 網頁" />
+
+    <meta property="al:ios:app_name" content="RPMTW" />
+
+    <title>RPMTW - 與我們一起壯大麥塊中文社群吧</title>
+
+    <meta name="msvalidate.01" content="58E1432266505DE0D6B75FE04C19A98E" />
+    <meta property="og:title" content="RPMTW - 與我們一起壯大麥塊中文社群吧" />
+    <meta property="og:site_name" content="RPMTW 模組官方網站" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta
+      property="og:description"
+      content="RPMTW致力於推廣Minecraft中文社群與開發相關工具，期望能讓Minecraft玩家有更好的體驗。"
+    />
+    <meta property="og:url" content="https://www.rpmtw.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="RPMTW_Logo.gif" />
+    <meta name="thumbnail" content="RPMTW_Logo.gif" />
+
+    <meta itemprop="name" content="RPMTW - 與我們一起壯大麥塊中文社群吧" />
+    <meta
+      itemprop="description"
+      content="RPMTW致力於推廣Minecraft中文社群與開發相關工具，期望能讓Minecraft玩家有更好的體驗。"
+    />
+    <meta itemprop="url" content="https://www.rpmtw.com" />
+    <meta name="url" href="https://www.rpmtw.com" />
+
+    <!-- set this -->
+    <meta
+      name="keywords"
+      content="RPMTW,minecraft,mod,漢化,漢化模組,繁體中文,中文模組,宇宙通訊,翻譯,中文化,菘菘,材質包,RWL,麥塊,RPMLauncher"
+    />
+    <meta
+      name="description"
+      content="RPMTW致力於推廣Minecraft中文社群與開發相關工具，期望能讓Minecraft玩家有更好的體驗。"
+    />
+    <meta name="abstract" content="RPMTW 官方網站" />
+    <meta name="subject" content="RPMTW 萬用中文化模組,RPMLauncher" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="application-name" content="RPMTW" />
+
+    <meta name="author" content="RPMTW team" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "website",
+        "name": "RPMTW - 與我們一起壯大麥塊中文社群吧",
+        "url": "https://www.rpmtw.com",
+        "description": "RPMTW致力於推廣Minecraft中文社群與開發相關工具，期望能讓Minecraft玩家有更好的體驗。"
+      }
+    </script>
+
+    <!-- goo tag -->
+    <meta name="geo.region" content="TW" />
+
+    <!-- web icon -->
+    <link rel="apple-touch-startup-image" href="RPMTW_Logo.gif" />
+    <link rel="apple-touch-icon" href="RPMTW_Logo.gif" />
+    <link rel="icon" href="RPMTW_Logo.gif" />
+    <!-- assets -->
+    <link rel="manifest" href="manifest.json" />
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <noscript>
+      <strong>
+        We're sorry but <%=htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <main id="app"></main>
   </body>
 </html>

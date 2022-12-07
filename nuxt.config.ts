@@ -26,4 +26,32 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: 'lang',
   },
+  app: {
+    head: {
+      title: 'RPMTW 官方網站',
+      meta: [
+        {
+          name: 'description',
+          content:
+            'RPMTW 致力於推廣 Minecraft 中文社群並開發相關工具，希望為 Minecraft 玩家提供更好的體驗。',
+        },
+        {
+          name: 'author',
+          content: 'The RPMTW Team',
+        },
+      ],
+      link: [
+        {
+          rel: 'icon',
+          href: '/favicon-dark.png',
+          media: '(prefers-color-scheme: dark)',
+        },
+        {
+          rel: 'icon',
+          href: '/favicon-light.png',
+          media: '(prefers-color-scheme: light)',
+        },
+      ],
+    },
+  },
 });

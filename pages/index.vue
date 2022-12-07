@@ -1,11 +1,7 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Home from '~/pages/home.vue';
+</script>
 
 <template>
-  <div>
-    <p>{{ $t('name') }}</p>
-  </div>
+  <Home />
 </template>
-
-<style lang="scss" scoped>
-@import 'assets/scss/global.scss';
-</style>
